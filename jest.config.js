@@ -4,6 +4,9 @@ module.exports = {
   testEnvironment: 'node',
   globals: {
     'ts-jest': {
+      diagnostics: {
+        warnOnly: true,
+      },
       tsconfig: {
         rootDir: '.'
       }
